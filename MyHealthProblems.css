@@ -1,0 +1,134 @@
+body {
+  background-color: #000;
+  color:#FFF;
+}
+h1 {
+  color: white;
+}
+p {
+  color: lightgreen;
+  font-size: 18px;
+  font-style:serif;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+.column-image {
+    width: 30%; /* Width of each image */
+    box-sizing: border-box; /* To ensure paddings and borders don't expand the image beyond the set width */
+    margin: 0 1%; /* Small margin for spacing */
+}
+ /* Table styles */
+table {
+    width: 100%;               /* Set table width to 100% */
+    border-collapse: collapse; /* Remove space between borders */
+    margin: 20px 0;            /* Add some margin for better visualization */
+    font-family: Arial, sans-serif; /* Change the font, optional */
+}
+
+/* Table header styles */
+th {
+    background-color: #28282b;/* Light gray background */
+    padding: 10px;             /* Add some padding */
+    text-align: left;          /* Align text to the left */
+}
+
+/* Table data/cell styles */
+td {
+    border: 1px solid #e0e0e0; /* Light gray border */
+    padding: 8px;              /* Add some padding */
+}
+
+/* Row hover effect - Optional */
+tr:hover {
+    background-color: #28282b; /* Slightly lighter gray for hover effect */
+}
+.btn-link:hover {
+    background-color: #purple;  /* Slightly darker blue when hovering */
+}
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;  /* Google's blue color */
+    color: white;             /* White text color */
+    text-decoration: none;      /* Removes the default underline from links */
+    border-radius: 4px;         /* Rounded corners */
+    font-weight: bold;          /* Bold text */
+    transition: background-color 0.3s ease;  /* Smooth transition effect when hovering */
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+.content-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.manutd-image {
+    max-width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.red-paragraph {
+  color: lightgreen;
+}
+.orange-question {
+  color: white;
+}
+.yellow-paragraph {
+  color: lightgreen;
+}
+.green-question {
+  color:white;
+}
+.blue-paragraph {
+  color:lightgreen;
+}
+.purple-question {
+  color: #51414F;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
